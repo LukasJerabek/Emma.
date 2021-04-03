@@ -18,6 +18,5 @@
   const allowed_languages = ["en", "cs"];
   const default_lang = found_lang === "sk" ? "cs" : "en";
   const lang = allowed_languages.includes(found_lang) ? found_lang : default_lang;
-  console.log(lang)
   window.location.replace(`http://${lang}.emmagraphicdesigner.com`);
 </script>
